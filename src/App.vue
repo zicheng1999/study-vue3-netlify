@@ -1,5 +1,5 @@
 <template>
-  <HelloWorld msg="Test Deploy!" />
+  <HelloWorld msg="Test Deploy 2!" />
 </template>
 
 <script>
