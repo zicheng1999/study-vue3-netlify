@@ -1,5 +1,5 @@
 <template>
-  <HelloWorld msg="Test Deploy 2!" />
+  <HelloWorld msg="TX ZE ZC" />
 </template>
 
 <script>
@@ -9,6 +9,13 @@ export default {
   name: "App",
   components: {
     HelloWorld,
+  },
+  setup() {
+    console.log("hi");
+    const test = () => {
+      console.log("tx");
+    };
+    test();
   },
 };
 </script>
